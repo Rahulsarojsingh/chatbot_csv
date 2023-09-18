@@ -53,12 +53,12 @@ To use the application, execute the `main.py` file using the Streamlit CLI. Make
 streamlit run main.py
 ```
 
-![UI](image/one.png)
+![UI](image/one.jpeg)
 
-![UI](image/two.png)
+![UI](image/two.jpeg)
 
-![UI](image/three.png)
+![UI](image/three.jpeg)
 
-![UI](image/four.png)
+![UI](image/four.jpeg)
 
-![UI](image/five.png)
+![UI](image/five.jpeg)
