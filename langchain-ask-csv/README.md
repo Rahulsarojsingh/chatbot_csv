@@ -23,11 +23,28 @@ To install the repository, follow these steps:
 
 ## Deploy
 ### Step 1: build the docker image
-docker build chatbot:v1 . -f CHATBOT_DOCKERFILE
+
+   ```
+   docker build chatbot:v1 . 
+   ```
+## Or you can pull base image directly from my dockerhub account
+
+   ```
+   docker pull rahulsarojsingh/chatbot-app:latest
+   ```
 
 ### Step 2: Deploy the ChatBot
-Docker run chatbot:v1
+if you build image please run this cmd:
 
+   ```
+   Docker run chatbot:v1 
+   ```
+if you pull the image please run this cmd:
+
+   ```
+   Docker run rahulsarojsingh/chatbot-app:latest
+   ```
+   
 ## Usage
 
 To use the application, execute the `main.py` file using the Streamlit CLI. Make sure you have Streamlit installed before running the application. Run the following command in your terminal:
@@ -36,7 +53,12 @@ To use the application, execute the `main.py` file using the Streamlit CLI. Make
 streamlit run main.py
 ```
 
-## Contributing
-This repository is intended for educational purposes only and is not designed to accept external contributions. It serves as supplemental material for the YouTube tutorial, demonstrating how to build the project.
+![UI](image/one.png)
 
-For any suggestions or improvements related to the tutorial content, please feel free to reach out through the YouTube channel's comment section.
+![UI](image/two.png)
+
+![UI](image/three.png)
+
+![UI](image/four.png)
+
+![UI](image/five.png)
