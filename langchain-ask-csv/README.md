@@ -44,13 +44,42 @@ if you pull the image please run this cmd:
    ```
    Docker run rahulsarojsingh/chatbot-app:latest
    ```
-   
+
+## OPENAI_API_KEY
+
+To use the application, Please give the OPENAI_API_KEY in the `.env` file.
+
 ## Usage
 
 To use the application, execute the `main.py` file using the Streamlit CLI. Make sure you have Streamlit installed before running the application. Run the following command in your terminal:
 
 ```
 streamlit run main.py
+```
+Some Q&A seasion :
+
+```
+holdings.csv
+First test
+1.Total number of holdings for a given Garfield?
+ans. 221 holdings for Garfield
+2. name of the funds in csv?
+ans. The funds in the csv are Garfield, Heather, MNC Inv, NorthPoint, AIV 1, Opium, Ytum, Platpot, Hi Yield, Lee Investment, SMA-L1, SMA-L2, SMA-L4, IG Corp, Fund 2 LP, AIV 2, NPSMF3, NPSMF1, and NPSMF2.
+3. Total number of rows for PortfolioName SMA-L1
+3
+4. Total number of rows for PortfolioName Heather
+195
+Now second test
+1. Which  PortfolioName performed better depending on the yearly Profit and Loss of that fund.
+Ytum performed the best based on the yearly Profit and Loss of that fund.
+2. Which  PortfolioName performed better depending on the yearly Profit.
+Ytum performed better with a yearly Profit of 7.229903e+06.
+trades.csv
+1.Total number of PortfolioName for a given Garfield?
+The total number of PortfolioName for a given Garfield is 1.
+2.what are the different funds  in csv?
+The different funds in the csv are 'Single Fund Rule - HoldCo 1', 'Single Fund Rule - HoldCo 3', 'Single Fund Rule - HoldCo 11', 'Single Fund Rule - HoldCo 7', 'STANDARD PERCENTAGE', 'Client Rule - ClientA', '280308', 'All', 'Single Fund Rule - Platpot Fund', nan, 'Single Fund Rule - Leatherwood Trust MA', 'Intermede A, B', and 'Intermede All'.
+
 ```
 
 ![UI](image/one.jpeg)
